@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://galacticoutreach.com">
-<img alt="Galactic" src="./public/banner.png" width="100%">
+<img alt="Galactic Outreach" src="./public/banner.png" width="100%">
 
   </a>
 </p>
@@ -9,7 +9,7 @@
 </h1>
 
 <h4 align="center">
-  <a href="https://galacticoutreach.com/docs">Documentation</a> |
+  <a href="https://galacticoutreach.com/docs/home">Documentation</a> |
   <a href="https://galacticoutreach.com">Website</a>
 </h4>
 
@@ -18,7 +18,7 @@
 </p>
 <p align="center">
   <a href="https://galacticoutreach.com/terms">
-    <img src="https://img.shields.io/badge/license-proprietary-blue.svg" alt="Galactic is proprietary software." />
+    <img src="https://img.shields.io/badge/license-proprietary-blue.svg" alt="Galactic Outreach is proprietary software." />
   </a>
   <a href="https://galacticoutreach.com/pricing">
     <img src="https://img.shields.io/badge/credits-no%20renewal-brightgreen.svg?style=flat" alt="Bought once, never renewed." />
@@ -35,33 +35,36 @@
 
 ## Getting Started
 
-The fastest way to get started is with [Galactic](https://galacticoutreach.com/login). It is a hosted environment with the pipeline, the sender and the compliance checks already wired together — no infrastructure to stand up. [Start on the free tier](https://galacticoutreach.com/pricing)
+The fastest way to get started is with [Galactic Outreach](https://galacticoutreach.com/login). It is a hosted environment with the pipeline, the sender and the compliance checks already wired together — no infrastructure to stand up. [Start free, no card needed](https://galacticoutreach.com/pricing)
 
-To understand what a campaign actually does before you run one, visit the [Documentation](https://galacticoutreach.com/docs).
+To understand what a campaign actually does before you run one, visit the [Documentation](https://galacticoutreach.com/docs/home).
 
-## About Galactic
+## About Galactic Outreach
 
-Galactic runs a cold email campaign end to end. It finds business contacts from public sources, helps you write the template, checks the batch, and sends it.
+Galactic Outreach is cold email software: it finds businesses by industry and city, writes to each one, and sends through your own email provider, checking every email before it leaves.
 
-The checks are the point. Twenty of them run before anything leaves — postal address, unsubscribe link, leftover placeholders, people you've already emailed — and if they don't pass, nothing sends. Everyone contacted gets logged, so nobody gets the same email twice, and anyone who unsubscribes or bounces is off the list for good.
+The checks are the point. Up to twenty-eight of them run before anything leaves — postal address, unsubscribe link, leftover placeholders, people you've already emailed, SPF and DMARC on your sending domain — and a blocking one stops the send. [Every check is listed](https://galacticoutreach.com/docs/safety-checks), with which ones block. Everyone contacted gets logged, so nobody gets the same email twice, and anyone who unsubscribes or bounces is off the list for good.
 
-It sends through your own provider account, not ours. Resend by default, with SES, Mailgun and SendGrid as options. Your sending reputation stays yours, and it leaves with you.
+The rules follow the recipient. Leads in countries that require opt-in before a first email — Germany, Spain and Poland — are held and never sent to, and no setting overrides that. [Country rules](https://galacticoutreach.com/docs/country-rules) lists the rule applied to every city, with the law behind it.
+
+It sends through your own provider account, not ours: Resend, Amazon SES, Mailgun or SendGrid. Your sending reputation stays yours, and it leaves with you. Read your provider's acceptable-use policy before you connect it: all four restrict unsolicited email, and Resend's forbids cold outreach by name. [What each policy says](https://galacticoutreach.com/docs/email-providers#policies).
 
 ## Updates & Integrations
 
 Follow the [Changelog](https://galacticoutreach.com/changelog) to keep up with what has shipped.
 
-Check out all [available email providers](https://galacticoutreach.com/docs) and what each one needs.
+Check out all [available email providers](https://galacticoutreach.com/docs/email-providers) and what each one needs.
 
 ## Support & Feedback
 
 The Support screen inside the dashboard is where questions, feedback and bug reports go. A filed message can be followed: it shows what you wrote and a dated trail of what has happened to it since, and the reply comes by email.
 
-Galactic is proprietary and does not take outside contributions. Reporting something that behaves wrongly is the most useful thing you can send, and that has a screen of its own.
+Galactic Outreach is proprietary and does not take outside contributions. Reporting something that behaves wrongly is the most useful thing you can send, and that has a screen of its own.
 
 ## Other channels
 
-- [Documentation](https://galacticoutreach.com/docs)
+- [Documentation](https://galacticoutreach.com/docs/home)
+- [Country rules](https://galacticoutreach.com/docs/country-rules)
 - [Pricing](https://galacticoutreach.com/pricing)
 - [Changelog](https://galacticoutreach.com/changelog)
 - [Who builds this](https://galacticoutreach.com/author)
