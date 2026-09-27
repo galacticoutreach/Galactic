@@ -47,7 +47,7 @@ The checks are the point. Up to twenty-eight of them run before anything leaves 
 
 The rules follow the recipient. Leads in countries that require opt-in before a first email — Germany, Spain and Poland — are held and never sent to, and no setting overrides that. [Country rules](https://galacticoutreach.com/docs/country-rules) lists the rule applied to every city, with the law behind it.
 
-It sends through your own provider account, not ours: Resend, Amazon SES, Mailgun or SendGrid. Your sending reputation stays yours, and it leaves with you. Read your provider's acceptable-use policy before you connect it: all four restrict unsolicited email, and Resend's forbids cold outreach by name. [What each policy says](https://galacticoutreach.com/docs/email-providers#policies).
+It sends through your own account, not ours: Resend, Amazon SES, Mailgun or SendGrid, or your own Microsoft 365 or Google Workspace mailbox, capped at 50 emails a day. Your sending reputation stays yours, and it leaves with you. Every provider sets its own rules on what you may send, to protect its reputation and your domain: read them before you connect one. Resend's forbids cold outreach by name. [What each policy says](https://galacticoutreach.com/docs/email-providers#policies).
 
 ## Updates & Integrations
 
