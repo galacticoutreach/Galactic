@@ -43,7 +43,7 @@ To understand what a campaign actually does before you run one, visit the [Docum
 
 Galactic Outreach is cold email software: it finds businesses by industry and city, writes to each one, and sends through your own email provider, checking every email before it leaves.
 
-The checks are the point. Up to twenty-eight of them run before anything leaves — postal address, unsubscribe link, leftover placeholders, people you've already emailed, SPF and DMARC on your sending domain — and a blocking one stops the send. [Every check is listed](https://galacticoutreach.com/docs/safety-checks), with which ones block. Everyone contacted gets logged, so nobody gets the same email twice, and anyone who unsubscribes or bounces is off the list for good.
+The checks are the point. Up to twenty-nine of them run before anything leaves — postal address, unsubscribe link, leftover placeholders, people you've already emailed, SPF and DMARC on your sending domain — and a blocking one stops the send. [Every check is listed](https://galacticoutreach.com/docs/safety-checks), with which ones block. Everyone contacted gets logged, so nobody gets the same email twice, and anyone who unsubscribes or bounces is off the list for good.
 
 The rules follow the recipient. Leads in countries that require opt-in before a first email — Germany, Spain and Poland — are held and never sent to, and no setting overrides that. [Country rules](https://galacticoutreach.com/docs/country-rules) lists the rule applied to every city, with the law behind it.
 
