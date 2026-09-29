@@ -59,7 +59,7 @@ Check out all [available email providers](https://galacticoutreach.com/docs/emai
 
 The Support screen inside the dashboard is where questions, feedback and bug reports go. A filed message can be followed: it shows what you wrote and a dated trail of what has happened to it since, and the reply comes by email.
 
-Galactic Outreach is proprietary and does not take outside contributions. Reporting something that behaves wrongly is the most useful thing you can send, and that has a screen of its own.
+Galactic Outreach is proprietary and its source is private, but contributions are welcome: bug reports, ideas and documentation corrections, as a [GitHub issue](https://github.com/galacticoutreach/Galactic/issues/new/choose) or from the Support screen. [How to contribute](./CONTRIBUTING.md) says what makes a report useful, and what contributing to a proprietary product means. Security issues go to [SECURITY.md](./SECURITY.md), never a public issue.
 
 ## Other channels
 
@@ -72,4 +72,4 @@ Galactic Outreach is proprietary and does not take outside contributions. Report
 
 ## License
 
-Proprietary. Copyright © Galactic Outreach. All rights reserved. This source is published for reference and carries no licence to use, copy, modify or redistribute it. Use of the hosted service is governed by the [Terms](https://galacticoutreach.com/terms), the [Privacy Policy](https://galacticoutreach.com/privacy) and the [Refund Policy](https://galacticoutreach.com/refunds).
+Proprietary. Copyright © Galactic Outreach. All rights reserved. This repository is published for reference and carries no licence to use, copy, modify or redistribute any part of the product; the application's source is private. Use of the hosted service is governed by the [Terms](https://galacticoutreach.com/terms), the [Privacy Policy](https://galacticoutreach.com/privacy) and the [Refund Policy](https://galacticoutreach.com/refunds).

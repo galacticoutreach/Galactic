@@ -1,0 +1,61 @@
+name: Bug report
+description: Something in Galactic Outreach behaved wrongly.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. Issues are public: **never include your lead list, API keys, passwords or anyone's contact details.** For something about your own campaign, the dashboard's Support screen keeps it private.
+  - type: textarea
+    id: did
+    attributes:
+      label: What you did
+      description: The steps, in the order you took them.
+      placeholder: "1. Opened Find new leads\n2. Picked Dentists and Toronto\n3. Pressed Run"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened instead
+      description: The actual behaviour, and the exact text of any error. Screenshots help.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where in the product
+      options:
+        - Finding leads
+        - Templates
+        - Safety checks
+        - Review & send
+        - Automation (schedules)
+        - Email provider setup
+        - Billing and credits
+        - Sign-in or account
+        - Somewhere else
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Chrome 140 on macOS
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I checked the changelog and the open issues.
+          required: true
+        - label: This contains no private data, keys or contact details.
+          required: true
+        - label: I have read CONTRIBUTING.md, including what contributing means for a proprietary product.
+          required: true

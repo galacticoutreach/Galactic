@@ -1,0 +1,12 @@
+# No blank issues: each form asks for what a report needs.
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/galacticoutreach/Galactic/security/policy
+    about: Never in a public issue. Email hello@galacticoutreach.com with "security" in the subject; see the policy.
+  - name: A problem with your own account or campaign
+    url: https://galacticoutreach.com/support
+    about: Use the Support screen in the dashboard. It attaches your campaign details privately, and you can follow the reply there.
+  - name: Email us
+    url: mailto:hello@galacticoutreach.com
+    about: Anything else, or if you would rather not open an issue.

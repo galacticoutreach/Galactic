@@ -1,0 +1,31 @@
+name: Documentation correction
+description: Something in the docs is wrong, stale or confusing.
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The link to the page, with the section if you can.
+      placeholder: https://galacticoutreach.com/docs/safety-checks#verdict
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What it says now
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should say, or what confused you
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I have read CONTRIBUTING.md.
+          required: true

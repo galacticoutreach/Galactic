@@ -1,0 +1,35 @@
+name: Idea or feedback
+description: Something got in your way, or would work better another way.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Galactic Outreach is proprietary: an idea sent here may be used to improve it, with no obligation in return. See CONTRIBUTING.md.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you were trying to do
+      description: The job, not the solution. What were you in the middle of when this came up?
+    validations:
+      required: true
+  - type: textarea
+    id: gets-in-the-way
+    attributes:
+      label: What gets in the way today
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: Optional. If you have a shape in mind, describe it.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I checked the changelog and the open issues.
+          required: true
+        - label: I have read CONTRIBUTING.md.
+          required: true
