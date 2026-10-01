@@ -43,9 +43,9 @@ To understand what a campaign actually does before you run one, visit the [Docum
 
 Galactic Outreach is cold email software: it finds businesses by industry and city, writes to each one, and sends through your own email provider, checking every email before it leaves.
 
-The checks are the point. Up to twenty-nine of them run before anything leaves — postal address, unsubscribe link, leftover placeholders, people you've already emailed, SPF and DMARC on your sending domain — and a blocking one stops the send. [Every check is listed](https://galacticoutreach.com/docs/safety-checks), with which ones block. Everyone contacted gets logged, so nobody gets the same email twice, and anyone who unsubscribes or bounces is off the list for good.
+The checks are the point. Up to twenty-nine of them run before anything leaves — postal address, unsubscribe link, leftover placeholders, people you've already emailed, SPF and DMARC on your sending domain — and a blocking one stops the send. [Every check is listed](https://galacticoutreach.com/docs/sending#verdict), with which ones block. Everyone contacted gets logged, so nobody gets the same email twice, and anyone who unsubscribes or bounces is off the list for good.
 
-The rules follow the recipient. Leads in countries that require opt-in before a first email or forbid mail to addresses collected from the web — Germany, Spain, Poland, the Netherlands and Singapore — are held and never sent to, and no setting overrides that. [Country rules](https://galacticoutreach.com/docs/country-rules) lists the rule applied to every city, with the law behind it.
+The rules follow the recipient. Leads in countries that require opt-in before a first email or forbid mail to addresses collected from the web — Germany, Spain, Poland, the Netherlands and Singapore — are held and never sent to, and no setting overrides that. [Country rules](https://galacticoutreach.com/docs/choosing-who-to-email#how) lists the rule applied to every city, with the law behind it.
 
 It sends through your own account, not ours: Resend, Amazon SES, Mailgun or SendGrid, or your own Microsoft 365 or Google Workspace mailbox, capped at 50 emails a day. Your sending reputation stays yours, and it leaves with you. Every provider sets its own rules on what you may send, to protect its reputation and your domain: read them before you connect one. Resend's forbids cold outreach by name. [What each policy says](https://galacticoutreach.com/docs/email-providers#policies).
 
@@ -64,8 +64,9 @@ Galactic Outreach is proprietary and its source is private, but contributions ar
 ## Other channels
 
 - [Documentation](https://galacticoutreach.com/docs/home)
-- [Country rules](https://galacticoutreach.com/docs/country-rules)
+- [Country rules](https://galacticoutreach.com/docs/choosing-who-to-email#how)
 - [Pricing](https://galacticoutreach.com/pricing)
+- [Compared with Apollo.io, ZoomInfo, Hunter and Clay](https://galacticoutreach.com/docs/compare)
 - [Changelog](https://galacticoutreach.com/changelog)
 - [Who builds this](https://galacticoutreach.com/author)
 - [hello@galacticoutreach.com](mailto:hello@galacticoutreach.com)
