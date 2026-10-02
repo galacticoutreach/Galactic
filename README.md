@@ -69,6 +69,8 @@ The rules follow the recipient. Leads in countries that require opt-in before a 
 
 It sends through your own account, not ours: Resend, Amazon SES, Mailgun or SendGrid, or your own Microsoft 365 or Google Workspace mailbox, capped at 50 emails a day. Your sending reputation stays yours, and it leaves with you. Every provider sets its own rules on what you may send, to protect its reputation and your domain: read them before you connect one. Resend's forbids cold outreach by name. [What each policy says](https://galacticoutreach.com/docs/email-providers#policies).
 
+It runs on a clock when you want it to: a lead search on a schedule, and up to ten send schedules, each with its own template, industries and dates. A new domain's warm-up is set up once, one dated schedule per week, and steps up by itself. Every scheduled run goes through the same checks as the button. [Send 3,000 a month safely](https://galacticoutreach.com/docs/monthly-volume) walks through it.
+
 ## Updates & Integrations
 
 Follow the [Changelog](https://galacticoutreach.com/changelog) to keep up with what has shipped.
@@ -87,6 +89,8 @@ Galactic Outreach is proprietary and its source is private, but contributions ar
 - [Country rules](https://galacticoutreach.com/docs/choosing-who-to-email#how)
 - [Pricing](https://galacticoutreach.com/pricing)
 - [Compared with Apollo.io, ZoomInfo, Hunter and Clay](https://galacticoutreach.com/docs/compare)
+- [Send 3,000 a month safely](https://galacticoutreach.com/docs/monthly-volume)
+- [Connect an AI assistant (MCP)](https://galacticoutreach.com/docs/mcp)
 - [Changelog](https://galacticoutreach.com/changelog)
 - [Who builds this](https://galacticoutreach.com/author)
 - [hello@galacticoutreach.com](mailto:hello@galacticoutreach.com)
