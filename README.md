@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://galacticoutreach.com">
-<img alt="Galactic Outreach" src="./public/banner.png" width="100%">
+<img width="1200" height="630" alt="og-2026-10-17" src="https://github.com/user-attachments/assets/8ba4f61b-133b-4a38-b197-1c51e283ac16" />
 
   </a>
 </p>
