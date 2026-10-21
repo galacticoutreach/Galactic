@@ -14,7 +14,8 @@
 </h4>
 
 <p align="center">
-  The workflow around your outbound email
+  Describe your ideal customer and your offer.<br />
+  We find those businesses and email each one.
 </p>
 <p align="center">
   <a href="https://galacticoutreach.com/terms">
@@ -53,11 +54,27 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://galacticoutreach.com">
+    <img src="./public/screens/overview.jpg" width="900" alt="The Galactic Outreach Overview screen: leads queued, safety checks passing, emails sent over 26 weeks, a map of where the leads are, and emails sent by business type." />
+  </a>
+  <br />
+  <sub>The Overview screen, on a sample campaign.</sub>
+</p>
+
 ## Getting Started
 
 The fastest way to get started is with [Galactic Outreach](https://galacticoutreach.com/login). It is a hosted environment with the pipeline, the sender and the compliance checks already wired together — no infrastructure to stand up. [Start free, no card needed](https://galacticoutreach.com/pricing)
 
 To understand what a campaign actually does before you run one, visit the [Documentation](https://galacticoutreach.com/docs/home).
+
+## How it works
+
+1. **Describe who you sell to and what you sell.** An industry, the cities to search and your offer. [Your Ideal Customer Profile](https://galacticoutreach.com/use-cases/ideal-customer-profile)
+2. **Find new leads.** Galactic searches each city for businesses in that industry and keeps the addresses they publish on their own websites. One credit per city, shown before you run. [Finding leads](https://galacticoutreach.com/docs/finding-leads)
+3. **Write one template per industry.** Add `{{suggestion}}` and each lead also gets a line written from its own website. [Templates](https://galacticoutreach.com/docs/templates)
+4. **Preview and check.** Every email is written out first, and up to twenty-nine checks run over the batch. A blocking one stops the send. [Safety checks](https://galacticoutreach.com/docs/sending#verdict)
+5. **Send, by hand or on a schedule,** through your own email provider. Unsubscribes and bounces are never emailed again. [Sending on a schedule](https://galacticoutreach.com/docs/automation)
 
 ## About Galactic Outreach
 
@@ -72,6 +89,21 @@ The rules follow the recipient. Leads in countries that require opt-in before a 
 It sends through your own account, not ours: Resend, Amazon SES, Mailgun or SendGrid, or your own Microsoft 365 or Google Workspace mailbox, capped at 50 emails a day. Your sending reputation stays yours, and it leaves with you. Every provider sets its own rules on what you may send, to protect its reputation and your domain: read them before you connect one. Resend's forbids cold outreach by name. [What each policy says](https://galacticoutreach.com/docs/email-providers#policies).
 
 It runs on a clock when you want it to: a lead search on a schedule, which emails you what it found, and up to ten send schedules, each with its own templates and dates. A new domain's warm-up is set up once, one dated schedule per week, and steps up by itself. Every scheduled run goes through the same checks as the button. [Send 3,000 a month safely](https://galacticoutreach.com/docs/monthly-volume) walks through it.
+
+## Screens
+
+<table>
+  <tr>
+    <td width="50%"><img src="./public/screens/emails-sent.jpg" alt="Emails sent: sent today, total sent, the daily send calendar, bounce rate and delivery rate." /></td>
+    <td width="50%"><img src="./public/screens/cities.jpg" alt="Cities: a map of where the leads are, with queued, written and sent counts for each city and country." /></td>
+  </tr>
+  <tr>
+    <td><b>Emails sent.</b> Every send by day, the bounce rate, and what your provider accepted.</td>
+    <td><b>Cities.</b> Where your leads are, and how many in each city are still to contact.</td>
+  </tr>
+</table>
+
+<sub>Screens from a sample campaign.</sub>
 
 ## Updates & Integrations
 
