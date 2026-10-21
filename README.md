@@ -61,7 +61,9 @@ To understand what a campaign actually does before you run one, visit the [Docum
 
 ## About Galactic Outreach
 
-Galactic Outreach is cold email software: it finds businesses by industry and city, writes to each one, and sends through your own email provider, checking every email before it leaves.
+Galactic Outreach is cold email software. Describe your ideal customer and your offer: it finds those businesses by industry and city, writes to each one, and sends through your own email provider, checking every email before it leaves. [Your Ideal Customer Profile](https://galacticoutreach.com/use-cases/ideal-customer-profile) shows what to describe.
+
+Each industry gets its own template, so a dentist and a roofer never get the same email. A template can also carry a line written for each lead from its own website — `{{suggestion}}`, one or two sentences naming one thing you do that fits that business — written on your own Gemini or Claude key and, if you add one, checked by Jev. A line with a link, a question or too many words is refused, and a lead without one is skipped, never sent a blank. [How suggestions work](https://galacticoutreach.com/docs/templates#suggestion).
 
 The checks are the point. Up to twenty-nine of them run before anything leaves — postal address, unsubscribe link, leftover placeholders, people you've already emailed, SPF and DMARC on your sending domain — and a blocking one stops the send. [Every check is listed](https://galacticoutreach.com/docs/sending#verdict), with which ones block. Everyone contacted gets logged, so nobody gets the same email twice, and anyone who unsubscribes or bounces is off the list for good.
 
@@ -69,7 +71,7 @@ The rules follow the recipient. Leads in countries that require opt-in before a 
 
 It sends through your own account, not ours: Resend, Amazon SES, Mailgun or SendGrid, or your own Microsoft 365 or Google Workspace mailbox, capped at 50 emails a day. Your sending reputation stays yours, and it leaves with you. Every provider sets its own rules on what you may send, to protect its reputation and your domain: read them before you connect one. Resend's forbids cold outreach by name. [What each policy says](https://galacticoutreach.com/docs/email-providers#policies).
 
-It runs on a clock when you want it to: a lead search on a schedule, and up to ten send schedules, each with its own template, industries and dates. A new domain's warm-up is set up once, one dated schedule per week, and steps up by itself. Every scheduled run goes through the same checks as the button. [Send 3,000 a month safely](https://galacticoutreach.com/docs/monthly-volume) walks through it.
+It runs on a clock when you want it to: a lead search on a schedule, which emails you what it found, and up to ten send schedules, each with its own templates and dates. A new domain's warm-up is set up once, one dated schedule per week, and steps up by itself. Every scheduled run goes through the same checks as the button. [Send 3,000 a month safely](https://galacticoutreach.com/docs/monthly-volume) walks through it.
 
 ## Updates & Integrations
 
@@ -88,7 +90,9 @@ Galactic Outreach is proprietary and its source is private, but contributions ar
 - [Documentation](https://galacticoutreach.com/docs/home)
 - [Country rules](https://galacticoutreach.com/docs/choosing-who-to-email#how)
 - [Pricing](https://galacticoutreach.com/pricing)
+- [Your Ideal Customer Profile](https://galacticoutreach.com/use-cases/ideal-customer-profile)
 - [Compared with Apollo.io, ZoomInfo, Hunter and Clay](https://galacticoutreach.com/docs/compare)
+- Galactic Outreach vs [Apollo](https://galacticoutreach.com/vs/apollo), [Instantly](https://galacticoutreach.com/vs/instantly) and [lemlist](https://galacticoutreach.com/vs/lemlist)
 - [Send 3,000 a month safely](https://galacticoutreach.com/docs/monthly-volume)
 - [Connect an AI assistant (MCP)](https://galacticoutreach.com/docs/mcp)
 - [Changelog](https://galacticoutreach.com/changelog)
